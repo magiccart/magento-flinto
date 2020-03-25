@@ -1,0 +1,40 @@
+/* mini cart */
+.cartSummary{position: relative;cursor: pointer;}
+.cartSummary .crat-icon{display: block;padding: 0px;display: inline-block;position: relative;}
+.cartSummary .crat-icon:before{display: inline-block; font-family: "Ionicons";font-size: 32px;line-height: 1;content: "\f110";}
+.cartSummary .cart-tolatl{display: none;margin: 0;}
+.cartSummary span.price{font-size: 14px;font-weight: 600;}
+.miniCartWrap .mini-maincart{padding: 0 0 15px;margin-left: 15px;}
+.mini-maincart{position:relative;z-index:90;margin: 0;}
+.cart-header{line-height: normal;vertical-align: middle;}
+/* .mini-maincart .mini-contentCart{position:absolute;right:0;top:100%;width:365px;padding: 20px 20px 30px;text-align: left;border-style: solid;border-width: 1px;box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);-moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);-webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);-o-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);-ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);opacity: 0;transform: scale(0.8) rotate(0deg);transition: all 300ms ease-in-out 0s;visibility: hidden;}
+.mini-maincart .mini-contentCart.toggle-content.visible,.mini-maincart:hover .mini-contentCart {opacity: 1;transform: scale(1) rotate(0deg);visibility: visible;} */
+.mini-maincart .mini-contentCart p.empty{margin:0;cursor: text;}
+.mini-contentCart .mini-products-list{margin:0;padding:0;}
+.mini-contentCart .item .product-details .product-name{font-size: 100%;line-height: 20px;margin-bottom: 5px;}
+.crat-icon .zero,.crat-icon .item{border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;-ms-border-radius: 50%;-o-border-radius: 50%;padding:0px;z-index: 2;position: absolute;width: 24px;height: 24px ;line-height: 23px;text-align: center;background-position: 0 0;background-repeat: no-repeat;right: -6px;bottom: -8px;font-size: 15px;}
+.cartSummary .icon-cart{padding:0px;font-size:30px;line-height: 30px;}
+.cartSummary .mt-cart-title{line-height: normal;margin: 0px;vertical-align: middle; font-size: 14px;display: none;font-weight: bold;}
+.mini-contentCart .subtotal{clear:both;display:block;padding:10px 0;margin:0;text-align: center;}
+.mini-contentCart .subtotal .label{font-size:18px;padding: 0;line-height: 30px;font-weight: normal;color: #333;}
+.mini-contentCart .subtotal .price{font-size: 20px;font-weight: normal;}
+.mini-contentCart .actions{text-align: center;}
+.mini-contentCart .actions a{border-width: 2px;border-style: solid;text-decoration:none;font-size:16px;line-height:50px;padding:0 25px;display:inline-block;margin: 0 10px 0 0;font-weight: 500;text-transform: uppercase;}
+.mini-contentCart .actions a.checkout{margin-right: 0;}
+#miniMagiccart .item:hover{background-color:#dddddd}
+#miniMagiccart a.btn-remove,a.btn-edit,a.btn-remove{float:none;margin:0;display: inline-block;vertical-align: middle;}
+.mini-contentCart .block-content .block-subtitle{margin:0;text-align: center;font-size: 14px;}
+#toPopup .countDown {background: #eee none repeat scroll 0 0;border-left: 1px solid #eaeaea;border-bottom: 1px solid #eaeaea;display: inline-block;font-size: 11px;font-weight: bold;height: 20px;line-height: 20px;width: 20px; position: absolute;top: 0;right: 0;}
+#toPopup .response p{padding: 0 14px 0 0;}
+/*popup*/
+#toPopup{background:none repeat scroll 0 0 #FFFFFF;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);-o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);-ms-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);border:0 solid #ccc;color:#333333;font-size:13px;position:fixed;top:30%;left:40%;width:300px;z-index:999999;padding:10px;text-align: center;}
+#popupAjaxcart .label,#popupAjaxcart .availability span{font-weight:300}
+/* option cart */
+#toPopup .input-box{margin:10px 0 10px}
+#toPopup label.required em{color:#eb340a}
+#toPopup .action-cart{margin:20px 0 15px 0}
+#toPopup .action-cart .button{margin: 0 5px 5px;}
+/* overlay loading */
+#popupAjaxcart .overlay{z-index:12;position:fixed;display:none;height:100%;width:100%;background-image: url(../images/overlay.png);background-repeat: repeat;top:0;left:0}
+#popupAjaxcart .loading{background:url("../images/loading.gif") no-repeat scroll center center #fff;box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);-o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);-ms-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);display:none;width:55px;height:55px;left:48%;opacity:1;padding:20px;position:fixed;top:38%;z-index:999999}
+

@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<root>
+  <page>
+    <item>
+      <title><![CDATA[404 Not Found 1]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[no-route]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<div class="page-404">
+	<div class="container">
+	<div class="found page-title"><h1>Oops, page not found</h1></div>
+	<p class="text-scribe">It looks like nothing was found at this location. </p>
+	<p class="text-scribe">Perhaps searching can help or go back to <a class="back-home" href="{{store url=""}}">Home page</a></p>
+	<div class="search-404 header">{{block type="core/template" name="top.search" as="topSearch" template="catalogsearch/form.mini.phtml"}}</div>
+	</div>
+</div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[About Us]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[about-magento-demo-store]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<div class="our-story">
+	<div class="block-content">
+		<p class="sub-text sub-text-1 sub-text-black">Flinto curates a selection of objects focused on quality,<br> minimalism, and functionality. Our mission is to provide<br> a unique set of products that fascinate and inspire the user.</p>
+		<p class="sub-text sub-text-2 sub-text-gray">Our selection of products are designed and imported from all over the world.<br> Whether from Denmark or Japan, some of these items have never <br> received exposure in the United States.</p>
+		<p class="sub-text sub-text-3 sub-text-black"><span class="fa fa-quote-left icon"><span class="hidden">hidden</span></span><span>The concept of Scandinavian design has been the subject of many<br> scholarly debates, and marketing agendas since the 1950s.</span><a href="#" class="bq-aut">Matthew Robinson</a></p>
+		<p class="sub-text sub-text-4 sub-text-gray">Security and privacy are the two things more important to us other than the quality of our products. All of our transactions are SSL secure, and your information will never be saved or shared without your permission.</p>
+	</div>
+</div>
+<!-- crazy-team -->
+<div class="crazy-team">
+	<div class="page-team-content">
+		<div class="block-title">
+			<h2>Our team</h2>
+		</div>
+		<div class="block-content">
+			<div class="crazy-team-slide">
+				<div class="row">
+					<div class="item col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="team-item">
+							<div class="images-team">
+								<a href="#">
+									<img class="img-responsive" alt="team" src="{{media url="wysiwyg/alothemes/cms/team_01.jpg"}}" />
+								</a>
+							</div>
+							<h2 class="team-name"><a href="#">Alex Black</a></h2>
+							<h3>Founder</h3>
+							<div class="socials alo-social-links">
+								<div class="icon-share">
+									<a href="#" class="social-link facebook"><span class="fa fa-facebook"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link twitter"><span class="fa fa-twitter"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link pinterest"><span class="fa fa-pinterest"><span class="hidden">hidden</span></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="team-item">
+							<div class="images-team">
+								<a href="#">
+									<img class="img-responsive" alt="team" src="{{media url="wysiwyg/alothemes/cms/team_02.jpg"}}" />
+								</a>
+							</div>
+							<h2 class="team-name"><a href="#">Anastasiya White</a></h2>
+							<h3>PR Manager</h3>
+							<div class="socials alo-social-links">
+								<div class="icon-share">
+									<a href="#" class="social-link facebook"><span class="fa fa-facebook"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link twitter"><span class="fa fa-twitter"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link pinterest"><span class="fa fa-pinterest"><span class="hidden">hidden</span></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="team-item">
+							<div class="images-team">
+								<a href="#">
+									<img class="img-responsive" alt="team" src="{{media url="wysiwyg/alothemes/cms/team_03.jpg"}}" />
+								</a>
+							</div>
+							<h2 class="team-name"><a href="#">Matthew Robinson</a></h2>
+							<h3>Designer</h3>
+							<div class="socials alo-social-links">
+								<div class="icon-share">
+									<a href="#" class="social-link facebook"><span class="fa fa-facebook"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link twitter"><span class="fa fa-twitter"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link pinterest"><span class="fa fa-pinterest"><span class="hidden">hidden</span></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Home page 5]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[flinto5]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<!-- magiccategory -->
+<div class="alo-theme box-products box-products-one cms-static-poroduct-category">
+	<div class="alo-no-magictabs">{{widget type="magiccategory/widget_magiccategory" identifier="featured-items-demo5" template="magiccart/magiccategory/magiccategory.phtml"}}</div>
+</div>
+<!-- magiccategory -->
+<div class="alo-theme box-products box-products-two cms-static-poroduct-category">
+	<div class="alo-no-magictabs">{{widget type="magiccategory/widget_magiccategory" identifier="best-seller-items-demo5" template="magiccart/magiccategory/magiccategory.phtml"}}</div>
+</div>
+<!-- magiccategory -->
+<div class="alo-theme box-products box-products-three cms-static-poroduct-category">
+	<div class="alo-no-magictabs">{{widget type="magiccategory/widget_magiccategory" identifier="popular-items" template="magiccart/magiccategory/magiccategory.phtml"}}</div>
+</div>
+<!-- static-pages-custom-product-->
+<div class="block-custom-product">
+    <div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom1">
+				{{widget type="magicproduct/widget_magicproduct" identifier="custom-product-new" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom2">
+				{{widget type="magicproduct/widget_magicproduct" identifier="custom-product-featured" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom3">
+				 {{widget type="magicproduct/widget_magicproduct" identifier="custom-product-sale" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom4">
+				{{widget type="magicproduct/widget_magicproduct" identifier="custom-product-latest" template="magiccart/magicproduct/magicproduct_custom.phtml"}} 
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </page>
+</root>

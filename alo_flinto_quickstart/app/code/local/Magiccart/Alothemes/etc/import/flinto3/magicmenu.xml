@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<root>
+  <magicmenu>
+    <menu>
+      <name><![CDATA[Contact Us]]></name>
+      <extra><![CDATA[1]]></extra>
+      <magic_label><![CDATA[]]></magic_label>
+      <link><![CDATA[contacts]]></link>
+      <short_desc><![CDATA[]]></short_desc>
+      <ext_content><![CDATA[]]></ext_content>
+      <order><![CDATA[0]]></order>
+      <status><![CDATA[1]]></status>
+    </menu>
+    <menu>
+      <name><![CDATA[About]]></name>
+      <extra><![CDATA[1]]></extra>
+      <magic_label><![CDATA[]]></magic_label>
+      <link><![CDATA[about-magento-demo-store]]></link>
+      <short_desc><![CDATA[]]></short_desc>
+      <ext_content><![CDATA[]]></ext_content>
+      <order><![CDATA[0]]></order>
+      <status><![CDATA[1]]></status>
+    </menu>
+  </magicmenu>
+</root>

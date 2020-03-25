@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<root>
+  <block>
+    <item>
+      <title><![CDATA[Banner menu Shop]]></title>
+      <identifier><![CDATA[banner-menu-shop]]></identifier>
+      <content><![CDATA[<div class="cms-static-banner-menu">
+	<div class="banner-menu">
+		<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/Elements_Mega_Menu.jpg"}}" alt="img Menu" /></a>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Custom Product Detail]]></title>
+      <identifier><![CDATA[additional-custom-product]]></identifier>
+      <content><![CDATA[<div class="container">
+    <div class="block-custom-product">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom1">
+				{{widget type="magicproduct/widget_magicproduct" identifier="custom-product-new" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom2">
+				{{widget type="magicproduct/widget_magicproduct" identifier="custom-product-featured" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom3">
+				 {{widget type="magicproduct/widget_magicproduct" identifier="custom-product-sale" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom4">
+				{{widget type="magicproduct/widget_magicproduct" identifier="custom-product-latest" template="magiccart/magicproduct/magicproduct_custom.phtml"}} 
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[additional-complete-policy-block]]></title>
+      <identifier><![CDATA[additional-complete-policy-block]]></identifier>
+      <content><![CDATA[
+<div class="alo-theme complete-static-policy policy">
+    <div class="container">
+		<div class="policy-wrap clearfix">
+			<div class="policy-box">
+				<div class="box-content">
+					<div class="service-content">
+					    <img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/service1.png"}}" alt="img" />
+						<div class="info-title">
+							<h3>Free Shipping</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="policy-box">
+				<div class="box-content">
+					<div class="service-content">
+					    <img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/service2.png"}}" alt="img" />
+						<div class="info-title">
+							<h3>Support Customer</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="policy-box">
+				<div class="box-content">
+					<div class="service-content">
+					    <img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/service3.png"}}" alt="img" />
+						<div class="info-title">
+							<h3>Secure Payments</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[contact_details]]></title>
+      <identifier><![CDATA[contact_details]]></identifier>
+      <content><![CDATA[<div class="contact_details">
+    <p class="short-description">If you need any help, please contact us <br> or send us an email</p>
+	<div class="contact_info">
+		<div class="row no-margin">
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding">
+				<div class="info_main border_left">
+					<div class="ion-android-pin icons"><span class="hidden">hidden</span></div>
+					<div class="flex">
+						<p class="tit-name">Address</p>
+						<p class="tit-contain">5 South Main Street,<br>Englishtown, NJ 07726</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding">
+			    <div class="info_main border_right">
+					<div class="ion-android-call icons"><span class="hidden">hidden</span></div>
+					<div class="flex">
+						<p class="tit-name">Phone</p>
+						<p class="tit-contain">+1 (078) 575 91 81</p>
+						<p class="tit-contain">+1 (078) 575 81 91</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Banner Demo 5]]></title>
+      <identifier><![CDATA[static_sections_top]]></identifier>
+      <content><![CDATA[<!-- Banner banner-col-4 -->
+<div class="page-alotheme static_sections_top wrap">
+	<div class="container">
+		<div class="row banner banner-show-3">
+			<div class="col-md-4 col-sm-4 banner-col-4 no-padding">
+				<div class="banner-ads1">
+					<div class="banner-boder-zoom">
+						<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo5/img5a.jpg"}}" alt="img" /></a>
+						<div class="position text-position">
+							<h3 class="cate-bg-white text-black text-baner-1"><a href="#">Watches</a></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 banner-col-4 no-padding">
+				<div class="banner-ads2">
+					<div class="banner-boder-zoom">
+						<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo5/img5b.jpg"}}" alt="img" /></a>
+						<div class="position text-position">
+							<h3 class="cate-bg-white text-black text-baner-1"><a href="#">Glasses</a></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 banner-col-4 no-padding">
+				<div class="banner-ads3">
+					<div class="banner-boder-zoom">
+						<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo5/img5c.jpg"}}" alt="img" /></a>
+						<div class="position text-position">
+							<h3 class="cate-bg-white text-black text-baner-1"><a href="#">Hats</a></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Banner -->]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Slider Demo 5]]></title>
+      <identifier><![CDATA[static-home-slide]]></identifier>
+      <content><![CDATA[<div class="slide-home alo-magicslider"><div class="homeslider">{{widget type="magicslider/widget_slide" identifier="slide5" template="magiccart/magicslider/magicslider.phtml"}}</div></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block footer Demo5]]></title>
+      <identifier><![CDATA[block_footer_bottom]]></identifier>
+      <content><![CDATA[<div class="block-footer-bottom">
+	<div class="alo-newletter cms-static-newletter box-width">
+		<div class="container">
+			<div class="block-newletter">{{block type="newsletter/subscribe" template="newsletter/subscribe.phtml"}}</div>
+		</div>
+	</div>
+	<div class="main-link full-width">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 col-sm-nth col-custom-footer col-custom-footer-1">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">Shop Women</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="#">All Women</a></li>
+							<li><a href="#">Clothing</a></li>
+							<li><a href="#">Shoes</a></li>
+							<li><a href="#">Accessories</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 col-sm-nth col-custom-footer col-custom-footer-2">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">Shop Men</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="#">All Men</a></li>
+							<li><a href="#">Clothing</a></li>
+							<li><a href="#">Shoes</a></li>
+							<li><a href="#">Accessories</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 col-sm-nth col-custom-footer col-custom-footer-3">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">Shop More</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="#">Collection</a></li>
+							<li><a href="#">Beauty</a></li>
+							<li><a href="#">Lifestyle</a></li>
+							<li><a href="#">Kids</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 col-sm-nth col-custom-footer col-custom-footer-4">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">Help</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="{{store url=""}}privacy-policy-cookie-restriction-mode/">Policy</a></li>
+							<li><a href="{{store url=""}}customer-service/">Service</a></li>
+							<li><a href="{{store url=""}}contact/">Contact</a></li>
+							<li><a href="{{store url=""}}catalog/seo_sitemap/category/">Sitemap</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 col-sm-nth col-custom-footer col-custom-footer-5">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">Company</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="{{store url=""}}catalog/seo_sitemap/category/">Sitemap</a></li>
+							<li><a href="{{store url=""}}about-magento-demo-store/">About</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">Careers</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 col-sm-nth col-custom-footer col-custom-footer-6">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">Follow Us</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="https://www.facebook.com/">Facebook</a></li>
+							<li><a href="https://twitter.com/">Twitter</a></li>
+							<li><a href="https://www.pinterest.com/">Pinterest</a></li>
+							<li><a href="https://www.instagram.com/">Instagram</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="main-top full-width">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-xs-12 col-custom-footer col-custom-footer-2">
+					<div class="collapsible mobile-collapsible">
+						<div class="block-content block-content-statick copyright">
+							<span>© 2017 Flinto. All rights reserved</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-xs-12 col-custom-footer col-custom-footer-1">
+					<div class="collapsible mobile-collapsible">
+						<div class="block1 block-content-statick block-logo">
+							<a href="#" class="marl"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/logo-footer2.png"}}" alt="img" /></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5 col-xs-12 col-custom-footer col-custom-footer-3">
+					<div class="collapsible mobile-collapsible">
+						<div class="block-content-statick">
+							<div class="bullet footer-extras">
+								<div class="socials alo-social-links">
+									<h3 class="block-title heading title-social">Follow us on social</h3>
+									<div class="icon-share">
+										<a href="#" class="social-link facebook"><span class="fa fa-facebook"><span class="hidden">hidden</span></span></a>
+										<a href="#" class="social-link twitter"><span class="fa fa-twitter"><span class="hidden">hidden</span></span></a>
+										<a href="#" class="social-link instagram"><span class="fa fa-instagram"><span class="hidden">hidden</span></span></a>
+										<a href="#" class="social-link pinterest"><span class="fa fa-pinterest"><span class="hidden">hidden</span></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </block>
+</root>

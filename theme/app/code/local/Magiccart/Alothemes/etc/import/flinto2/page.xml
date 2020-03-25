@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<root>
+  <page>
+    <item>
+      <title><![CDATA[404 Not Found 1]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[no-route]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<div class="page-404">
+	<div class="container">
+	<div class="found page-title"><h1>Oops, page not found</h1></div>
+	<p class="text-scribe">It looks like nothing was found at this location. </p>
+	<p class="text-scribe">Perhaps searching can help or go back to <a class="back-home" href="{{store url=""}}">Home page</a></p>
+	<div class="search-404 header">{{block type="core/template" name="top.search" as="topSearch" template="catalogsearch/form.mini.phtml"}}</div>
+	</div>
+</div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[About Us]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[about-magento-demo-store]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<div class="our-story">
+	<div class="block-content">
+		<p class="sub-text sub-text-1 sub-text-black">Flinto curates a selection of objects focused on quality,<br> minimalism, and functionality. Our mission is to provide<br> a unique set of products that fascinate and inspire the user.</p>
+		<p class="sub-text sub-text-2 sub-text-gray">Our selection of products are designed and imported from all over the world.<br> Whether from Denmark or Japan, some of these items have never <br> received exposure in the United States.</p>
+		<p class="sub-text sub-text-3 sub-text-black"><span class="fa fa-quote-left icon"><span class="hidden">hidden</span></span><span>The concept of Scandinavian design has been the subject of many<br> scholarly debates, and marketing agendas since the 1950s.</span><a href="#" class="bq-aut">Matthew Robinson</a></p>
+		<p class="sub-text sub-text-4 sub-text-gray">Security and privacy are the two things more important to us other than the quality of our products. All of our transactions are SSL secure, and your information will never be saved or shared without your permission.</p>
+	</div>
+</div>
+<!-- crazy-team -->
+<div class="crazy-team">
+	<div class="page-team-content">
+		<div class="block-title">
+			<h2>Our team</h2>
+		</div>
+		<div class="block-content">
+			<div class="crazy-team-slide">
+				<div class="row">
+					<div class="item col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="team-item">
+							<div class="images-team">
+								<a href="#">
+									<img class="img-responsive" alt="team" src="{{media url="wysiwyg/alothemes/cms/team_01.jpg"}}" />
+								</a>
+							</div>
+							<h2 class="team-name"><a href="#">Alex Black</a></h2>
+							<h3>Founder</h3>
+							<div class="socials alo-social-links">
+								<div class="icon-share">
+									<a href="#" class="social-link facebook"><span class="fa fa-facebook"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link twitter"><span class="fa fa-twitter"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link pinterest"><span class="fa fa-pinterest"><span class="hidden">hidden</span></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="team-item">
+							<div class="images-team">
+								<a href="#">
+									<img class="img-responsive" alt="team" src="{{media url="wysiwyg/alothemes/cms/team_02.jpg"}}" />
+								</a>
+							</div>
+							<h2 class="team-name"><a href="#">Anastasiya White</a></h2>
+							<h3>PR Manager</h3>
+							<div class="socials alo-social-links">
+								<div class="icon-share">
+									<a href="#" class="social-link facebook"><span class="fa fa-facebook"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link twitter"><span class="fa fa-twitter"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link pinterest"><span class="fa fa-pinterest"><span class="hidden">hidden</span></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="team-item">
+							<div class="images-team">
+								<a href="#">
+									<img class="img-responsive" alt="team" src="{{media url="wysiwyg/alothemes/cms/team_03.jpg"}}" />
+								</a>
+							</div>
+							<h2 class="team-name"><a href="#">Matthew Robinson</a></h2>
+							<h3>Designer</h3>
+							<div class="socials alo-social-links">
+								<div class="icon-share">
+									<a href="#" class="social-link facebook"><span class="fa fa-facebook"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link twitter"><span class="fa fa-twitter"><span class="hidden">hidden</span></span></a>
+									<a href="#" class="social-link pinterest"><span class="fa fa-pinterest"><span class="hidden">hidden</span></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Home page 2]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[flinto2]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<!-- Banner banner-col-4-2 -->
+<div class="row banner banner-row-2">
+	<div class="col-md-4 col-sm-4 banner-col-4">
+		<div class="banner-ads1 banner-margin">
+			<div class="banner-boder-zoom">
+				<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo2/img2a.jpg"}}" alt="img" /></a>
+			</div>
+		</div>
+		<div class="banner-ads1-2">
+			<div class="banner-boder-zoom">
+				<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo2/img2b.jpg"}}" alt="img" /></a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4 col-sm-4 banner-col-4">
+		<div class="banner-ads2 banner-margin">
+			<div class="banner-boder-zoom">
+				<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo2/img2c.jpg"}}" alt="img" /></a>
+			</div>
+		</div>
+		<div class="banner-ads2-2">
+			<div class="banner-boder-zoom">
+				<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo2/img2d.jpg"}}" alt="img" /></a>
+				<div class="position text-position">
+					<h3 class="cate-bg-white text-black text-baner-1"><a href="#">Accessories</a></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4 col-sm-4 banner-col-4">
+		<div class="banner-ads3 banner-margin">
+			<div class="banner-boder-zoom">
+				<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo2/img2e.jpg"}}" alt="img" /></a>
+			</div>
+		</div>
+		<div class="banner-ads3-3">
+			<div class="banner-boder-zoom">
+				<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo2/img2f.jpg"}}" alt="img" /></a>
+				<div class="position text-position">
+					<h3 class="cate-bg-white text-black text-baner-1"><a href="#">Shoes</a></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Banner -->
+<!-- magicproduct -->
+<div class="alo-theme box-products box-title-tab box-products-one">
+    <div class="container">
+		<div class="block-title block-title-tabs">
+			<h3>Featured Products</h3>
+		</div>
+	</div>
+	<div class="alo-magictabs">
+	    {{widget type="magicproduct/widget_magicproduct" identifier="featured-products-demo2" template="magiccart/magicproduct/magicproduct.phtml"}}
+	</div>
+</div>
+<!-- policy -->
+<div class="alo-theme complete-static-policy policy">
+    <div class="container">
+		<div class="policy-wrap clearfix">
+			<div class="policy-box">
+				<div class="box-content">
+					<div class="service-content">
+					    <img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo2/service1.png"}}" alt="img" />
+						<div class="info-title">
+							<h3>Free Shipping</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="policy-box">
+				<div class="box-content">
+					<div class="service-content">
+					    <img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo2/service2.png"}}" alt="img" />
+						<div class="info-title">
+							<h3>Support Customer</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="policy-box">
+				<div class="box-content">
+					<div class="service-content">
+					    <img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo2/service3.png"}}" alt="img" />
+						<div class="info-title">
+							<h3>Secure Payments</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </page>
+</root>

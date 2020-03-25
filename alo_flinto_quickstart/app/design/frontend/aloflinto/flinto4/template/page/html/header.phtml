@@ -1,0 +1,146 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<div class="header-container header-color color">
+    <div class="header_full">
+    	<div class="header">
+			<div class="header-top">
+				<div class="full-width">
+					<div class="container-full clearfix">
+						<div class="top-left top-mobile">
+							<?php echo $this->getChildHtml('currency') ?>
+							<div class="header-setting">
+								<div class="settting-switcher">
+									<div class="top-form-language">
+										<?php echo $this->getChildHtml('store_language') ?>
+									</div>
+								</div>
+							</div>
+							<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('social')->toHtml(); ?>
+						</div>
+						<div class="header-icons content-cart">
+							<div class="tool-header clearfix">
+								<div class="top-link-product">
+									<a title="My wishlist" href="<?php echo $this->getUrl('wishlist') ?>" target="_blank" class="wishlist icon ion-android-favorite-outline alotheme-tooltip">
+										<?php $counter = $this->helper('Wishlist')->getItemCount() ?>
+										<?php if($counter): ?>
+											<span class="counter"><?php echo $counter > 0 ? $counter:0; ?></span>
+										<?php endif; ?>
+										<!-- <span class="tooltip"><?php // echo $this->__('Wishlist')?></span> -->
+									</a>
+								</div>
+								<div class="closetab">
+									<div class="alo-toggle tool-topsearch toggle-tab-mobile">
+										<span class="toggle-tab outside-close mobile"><i class="icon ion-ios-search-strong icons"></i></span>
+										<div class="over-lay"></div>
+										<div class="dropdown-switcher toggle-content">
+											<div class="top-search-alo container">
+												<h3 class="search-title"><?php /* @escapeNotVerified */ echo $this->__('Search') ?></h3>
+												<?php echo $this->getChildHtml('topSearch') ?>
+												<div class="button btn-close"><span><?php /* @escapeNotVerified */ echo $this->__('close') ?></span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="closetab">
+									<div class="miniCartWrap">
+										<?php echo $this->getChildHtml('ajaxcart'); ?>
+									</div>
+								</div>
+								<div class="closetab">
+									<div class="alo-toggle tool-account toggle-tab-mobile">
+										<span class="toggle-tab outside-close mobile"><i class="icon ion-android-settings-none ion-android-more-vertical icons"></i></span>
+										<div class="dropdown-switcher toggle-content">
+											<div class="button btn-close"><span><?php /* @escapeNotVerified */ echo $this->__('close') ?></span></div>
+											 <ul class="top-links clearfix">
+												<?php  if ($this->helper('customer')->isLoggedIn()): ?>
+													<li>
+														<a href="<?php echo Mage::getUrl('customer/account/'); ?>" title="<?php echo $this->__('My account') ?>"><?php echo Mage::getSingleton('customer/session')->getCustomer()->getName() ?>
+														</a>
+													</li>
+													<li class="logout">
+														<a href="<?php echo Mage::getUrl('customer/account/logout'); ?>" title="<?php echo $this->__('Sign out') ?>"><?php echo $this->__('Sign out') ?>
+														</a>
+													</li>
+												<?php else: ?>
+												<li class="login">
+												  <a href="<?php echo Mage::getUrl('customer/account/login'); ?>" title="<?php echo $this->__('Sign in') ?>"><?php echo $this->__('Sign in') ?>
+												  </a>
+												</li>
+												<li class="create">
+													<a href="<?php echo Mage::getUrl('customer/account/create'); ?>" title="<?php echo $this->__('Register') ?>"><?php echo $this->__('Register') ?>
+													</a>
+												</li>
+												<?php endif; ?>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    	    <div class="header-content">
+    	    	<div class="header-sticker">
+    	    		<div class="full-width">
+		    	    	<div class="container">
+		    	    		<div class="main-fix head-position clearfix">
+							    <div class="clearfix">
+							    	<div class="content-logo">
+							    		<div class="header-logo menu-mobile">
+											 <?php if ($this->getIsHomePage()):?>
+												<h1 class="logo">
+													<strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo1"><img class="img-responsive" src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+												</h1>
+											<?php else:?>
+												<a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img class="img-responsive" src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+											<?php endif?>
+										</div>
+							    	</div>
+							    	<div class="under-top-bar header-config-bg">
+										<div class="row header-wrapper-bottom menu-mobile-none">
+										    <div class="col-sm-12 visible-md-on">
+												<div class="custom-menu">
+													<?php echo $this->getChildHtml('topMenu') ?>
+												</div>
+											</div>
+										</div>
+									</div>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+    	    </div>
+    	</div>
+    </div>
+	<?php echo $this->getChildHtml('topContainer'); ?>
+</div>
+

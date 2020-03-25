@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<root>
+  <magicslider>
+    <slide>
+      <title><![CDATA[Slider Demo 1]]></title>
+      <identifier><![CDATA[slide]]></identifier>
+      <content><![CDATA[[{"url":"http:\/\/web.com\/alo_flinto1x\/media\/magiccart\/magicslider\/s\/l\/slide1.jpg","file":"\/s\/l\/slide1.jpg","label":"","position":"1","disabled":0,"removed":0,"html":"<div class=\"container figcaption\">\n\t<div class=\"text-slide text-slide1\">\n\t\t<h3 class=\"caption1 primary-font white\">New Arrivals<\/h3>\n\t\t<h3 class=\"caption2 white\">Spring 2017<\/h3>\n\t<\/div>\n<\/div>","link":""},{"url":"http:\/\/web.com\/alo_flinto1x\/media\/magiccart\/magicslider\/s\/l\/slide2.jpg","file":"\/s\/l\/slide2.jpg","label":"","position":"2","disabled":0,"removed":0,"html":"<div class=\"container figcaption\">\n\t<div class=\"text-slide text-slide2\">\n\t\t<h3 class=\"caption1 primary-font black\">New Arrivals<\/h3>\n\t\t<h3 class=\"caption5\"><a href=\"#\" class=\"btn-shop primary-font\">Woman Collection<\/a> <a href=\"#\" class=\"btn-shop primary-font\">Man Collection<\/a><\/h3>\n\t<\/div>\n<\/div>","link":""}]]]></content>
+      <status><![CDATA[1]]></status>
+      <config><![CDATA[a:6:{s:5:"width";s:4:"1920";s:6:"height";s:3:"765";s:8:"controls";s:1:"1";s:5:"pager";s:1:"1";s:5:"pause";s:5:"60000";s:5:"speed";s:3:"800";}]]></config>
+    </slide>
+  </magicslider>
+</root>

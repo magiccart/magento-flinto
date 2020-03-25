@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<root>
+  <magicslider>
+    <slide>
+      <title><![CDATA[Slider Demo 5]]></title>
+      <identifier><![CDATA[slide5]]></identifier>
+      <content><![CDATA[[{"url":"http:\/\/web.com\/alo_flinto1x\/media\/magiccart\/magicslider\/s\/l\/slide5-1.jpg","file":"\/s\/l\/slide5-1.jpg","label":"","position":"1","disabled":0,"removed":0,"html":"<div class=\"container figcaption\">\n\t<div class=\"text-slide text-slide1\">\n\t\t<h3 class=\"caption1 primary-font red\">New Arrivals<\/h3>\n\t\t<h3 class=\"caption2 blue\">Final Sales<\/h3>\n\t\t<h3 class=\"caption3 black\">only 24 hours<\/h3>\n\t\t<h3 class=\"caption5\"><a href=\"#\" class=\"btn-shop primary-font\">Shop now<\/a><\/h3>\n\t<\/div>\n<\/div>","link":""},{"url":"http:\/\/web.com\/alo_flinto1x\/media\/magiccart\/magicslider\/s\/l\/slide5-1_1.jpg","file":"\/s\/l\/slide5-1_1.jpg","label":"","position":"2","disabled":0,"removed":0,"html":"<div class=\"container figcaption\">\n\t<div class=\"text-slide text-slide2\">\n\t\t<h3 class=\"caption1 primary-font red\">New Arrivals<\/h3>\n\t\t<h3 class=\"caption2 blue\">Final Sales<\/h3>\n\t\t<h3 class=\"caption3 black\">only 24 hours<\/h3>\n\t\t<h3 class=\"caption5\"><a href=\"#\" class=\"btn-shop primary-font\">Shop now<\/a><\/h3>\n\t<\/div>\n<\/div>","link":""}]]]></content>
+      <status><![CDATA[1]]></status>
+      <config><![CDATA[a:6:{s:5:"width";s:4:"1400";s:6:"height";s:3:"765";s:8:"controls";s:1:"1";s:5:"pager";s:1:"0";s:5:"pause";s:4:"6000";s:5:"speed";s:3:"800";}]]></config>
+    </slide>
+  </magicslider>
+</root>

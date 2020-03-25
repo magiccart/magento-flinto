@@ -1,0 +1,51 @@
+.cms-index-index .alo-magicslider {margin-left: auto;margin-right: auto;max-width: 1400px;}
+.magicslider{padding:0px;margin:0;}
+.bx-wrapper .bx-caption {display:none;z-index: -1;}
+.bx-wrapper .bx-caption.start, .bx-wrapper .bx-caption.play { display:block;z-index: 1;}
+.magicslider .text-slide{text-align: center;position: absolute;right: 13%;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%);}
+.text-slide {opacity: 0;visibility: hidden;}
+.play .text-slide {opacity: 1; visibility: visible;}
+.play .caption1 {opacity: 1;font-size: 50px;font-weight:400;line-height: 1;letter-spacing: -5px;margin: 0 0 20px 0px;text-transform: uppercase;
+    -moz-animation: fadeInRight 0.8s ease-in 1.3s backwards;
+    -webkit-animation: fadeInRight 0.8s ease-in 1s backwards;
+    animation: fadeInRight 0.8s ease-in 1s backwards;
+}
+.play .caption2 {opacity:1;font-weight: bold;font-size: 88px;margin: 0px;line-height: 1;letter-spacing: -5px;display: inline-block;
+    -moz-animation: fadeInLeft 0.8s ease-in 1.5s backwards;
+    -webkit-animation: fadeInLeft 0.8s ease-in 1.5s backwards;
+    animation: fadeInLeft 0.8s ease-in 1.5s backwards;
+}
+.play .caption3 {opacity:1;font-size: 24px;margin: 32px 0 0;line-height: 24px;font-weight: 600;letter-spacing: 2px;text-transform: uppercase;
+    -moz-animation: fadeInUp 0.8s ease-in 1.7s backwards;
+    -webkit-animation: fadeInUp 0.8s ease-in 1.7s backwards;
+    animation: fadeInUp 0.8s ease-in 1.7s backwards;
+}
+.play .caption4 {opacity:1;margin: 3px 0 0;;display: block; font-size: 26px;line-height: 26px;font-weight: bold;
+    -moz-animation: fadeInLeft 0.8s ease-in 2s backwards;
+    -webkit-animation: fadeInLeft 0.8s ease-in 2s backwards;
+    animation: fadeInLeft 0.8s ease-in 2s backwards;
+}
+.play .caption5{opacity: 1;margin: 0;;display: block;
+    -moz-animation: fadeInLeft 0.8s ease-in 2.5s backwards;
+    -webkit-animation: fadeInLeft 0.8s ease-in 2.5s backwards;
+    animation: fadeInLeft 0.8s ease-in 2.5s backwards;
+}
+.play .caption1{font-family: 'Rajdhani', sans-serif;}
+.magicslider .text-slide .btn-shop{padding: 0px;line-height: 30px;display: inline-block;font-weight: bold;font-size: 24px;margin: 35px 0px 0;border-bottom: 1px solid #000;}
+.magicslider .bx-wrapper .bx-controls-direction a{border: 0;width: 65px;height: 65px;line-height: 65px;border-radius: 0;-moz-transition: all 0.45s ease;-webkit-transition: all 0.45s ease;-o-transition: all 0.45s ease;-ms-transition: all 0.45s ease;transition: all 0.45s ease;visibility: hidden;opacity: 0;top: 45%;}
+.magicslider .bx-controls-direction .bx-prev, 
+.magicslider .bx-controls-direction .bx-next {text-align: center;-moz-transition: all 0.45s ease;-webkit-transition: all 0.45s ease;-o-transition: all 0.45s ease;-ms-transition: all 0.45s ease;transition: all 0.45s ease;visibility: hidden;opacity: 0;}
+.magicslider .bx-wrapper .bx-controls-direction a .fa{display: none;}
+.magicslider .bx-wrapper .bx-controls-direction a.bx-prev{left: 10px;}
+.magicslider .bx-wrapper .bx-controls-direction a.bx-next{right: 10px;}
+.magicslider .bx-wrapper .bx-controls-direction a.bx-prev:before{content: "\f3d2";}
+.magicslider .bx-wrapper .bx-controls-direction a.bx-next:before{content: "\f3d3";}
+.magicslider .bx-wrapper .bx-controls-direction a.bx-prev:before,.magicslider .bx-wrapper .bx-controls-direction a.bx-next:before{display: inline-block;font-family: "Ionicons";}
+.magicslider:hover .bx-wrapper .bx-controls-direction .bx-next{visibility: inherit;opacity: 1;}
+.magicslider:hover .bx-wrapper .bx-controls-direction .bx-prev{visibility: inherit;opacity: 1;}
+.magicslider .bx-prev{-ms-transform: translateY(-50%); -webkit-transform: translateY(-50%);transform: translateY(-50%);}
+.magicslider .bx-next{-ms-transform: translateY(-50%);-webkit-transform: translateY(-50%);transform: translateY(-50%);}
+.magicslider .bx-wrapper .bx-pager{text-align: center;bottom: 30px;}
+.magicslider .bx-wrapper .bx-pager .bx-pager-item {margin: 0px;padding: 0 8px;}
+.magicslider .bx-wrapper .bx-pager.bx-default-pager a{width: 10px;height: 10px;line-height: 10px;margin:0 ;text-align: center;font-size: 12px;position: relative;}
+.magicslider .bx-wrapper .bx-pager .bx-pager-item a.active{width: 10px;height: 10px;}

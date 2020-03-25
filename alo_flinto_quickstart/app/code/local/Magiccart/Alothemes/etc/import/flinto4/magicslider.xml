@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<root>
+  <magicslider>
+    <slide>
+      <title><![CDATA[Slider Demo 4]]></title>
+      <identifier><![CDATA[slide4]]></identifier>
+      <content><![CDATA[[{"url":"http:\/\/web.com\/alo_flinto1x\/media\/magiccart\/magicslider\/s\/l\/slide1-4.jpg","file":"\/s\/l\/slide1-4.jpg","label":"","position":1,"disabled":0,"removed":0},{"url":"http:\/\/web.com\/alo_flinto1x\/media\/magiccart\/magicslider\/s\/l\/slide2-4.jpg","file":"\/s\/l\/slide2-4.jpg","label":"","position":2,"disabled":0,"removed":0},{"url":"http:\/\/web.com\/alo_flinto1x\/media\/magiccart\/magicslider\/s\/l\/slide3-4.jpg","file":"\/s\/l\/slide3-4.jpg","label":"","position":3,"disabled":0,"removed":0},{"url":"http:\/\/web.com\/alo_flinto1x\/media\/magiccart\/magicslider\/s\/l\/slide2-4_1.jpg","file":"\/s\/l\/slide2-4_1.jpg","label":"","position":4,"disabled":0,"removed":0}]]]></content>
+      <status><![CDATA[1]]></status>
+      <config><![CDATA[a:6:{s:5:"width";s:3:"570";s:6:"height";s:3:"820";s:8:"controls";s:1:"1";s:5:"pager";s:1:"0";s:5:"pause";s:4:"6000";s:5:"speed";s:3:"800";}]]></config>
+    </slide>
+  </magicslider>
+</root>

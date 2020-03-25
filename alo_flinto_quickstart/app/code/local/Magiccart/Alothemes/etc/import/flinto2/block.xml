@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<root>
+  <block>
+    <item>
+      <title><![CDATA[Slider Demo 1]]></title>
+      <identifier><![CDATA[static-home-slide]]></identifier>
+      <content><![CDATA[<div class="slide-home alo-magicslider"><div class="homeslider">{{widget type="magicslider/widget_slide" identifier="slide" template="magiccart/magicslider/magicslider.phtml"}}</div></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Newsletter and Social]]></title>
+      <identifier><![CDATA[block_footer_bottom]]></identifier>
+      <content><![CDATA[<div class="block-footer-bottom">
+	<div class="alo-newletter cms-static-newletter box-width">
+		<div class="container">
+			<div class="block-newletter">{{block type="newsletter/subscribe" template="newsletter/subscribe.phtml"}}</div>
+		</div>
+	</div>
+	<div class="main-top full-width">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-xs-12 col-custom-footer col-custom-footer-1">
+					<div class="collapsible mobile-collapsible">
+						<div class="block1 block-content-statick block-logo">
+							<a href="#" class="marl"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/logo-footer.png"}}" alt="img" /></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-xs-12 col-custom-footer col-custom-footer-2">
+					<div class="collapsible mobile-collapsible">
+						<div class="block-content block-content-statick copyright">
+							<span>© 2017 Flinto. All rights reserved</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-xs-12 col-custom-footer col-custom-footer-3">
+					<div class="collapsible mobile-collapsible">
+						<div class="block-content-statick">
+							<div class="bullet footer-extras">
+								<div class="socials alo-social-links">
+									<div class="icon-share">
+										<a href="#" class="social-link facebook"><span class="fa fa-facebook"><span class="hidden">hidden</span></span></a>
+										<a href="#" class="social-link twitter"><span class="fa fa-twitter"><span class="hidden">hidden</span></span></a>
+										<a href="#" class="social-link instagram"><span class="fa fa-instagram"><span class="hidden">hidden</span></span></a>
+										<a href="#" class="social-link pinterest"><span class="fa fa-pinterest"><span class="hidden">hidden</span></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Banner menu Shop]]></title>
+      <identifier><![CDATA[banner-menu-shop]]></identifier>
+      <content><![CDATA[<div class="cms-static-banner-menu">
+	<div class="banner-menu">
+		<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/Elements_Mega_Menu.jpg"}}" alt="img Menu" /></a>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Custom Product Detail]]></title>
+      <identifier><![CDATA[additional-custom-product]]></identifier>
+      <content><![CDATA[<div class="container">
+    <div class="block-custom-product">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom1">
+				{{widget type="magicproduct/widget_magicproduct" identifier="custom-product-new" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom2">
+				{{widget type="magicproduct/widget_magicproduct" identifier="custom-product-featured" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom3">
+				 {{widget type="magicproduct/widget_magicproduct" identifier="custom-product-sale" template="magiccart/magicproduct/magicproduct_custom.phtml"}}
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-product custom4">
+				{{widget type="magicproduct/widget_magicproduct" identifier="custom-product-latest" template="magiccart/magicproduct/magicproduct_custom.phtml"}} 
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[additional-complete-policy-block]]></title>
+      <identifier><![CDATA[additional-complete-policy-block]]></identifier>
+      <content><![CDATA[
+<div class="alo-theme complete-static-policy policy">
+    <div class="container">
+		<div class="policy-wrap clearfix">
+			<div class="policy-box">
+				<div class="box-content">
+					<div class="service-content">
+					    <img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/service1.png"}}" alt="img" />
+						<div class="info-title">
+							<h3>Free Shipping</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="policy-box">
+				<div class="box-content">
+					<div class="service-content">
+					    <img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/service2.png"}}" alt="img" />
+						<div class="info-title">
+							<h3>Support Customer</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="policy-box">
+				<div class="box-content">
+					<div class="service-content">
+					    <img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/service3.png"}}" alt="img" />
+						<div class="info-title">
+							<h3>Secure Payments</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[contact_details]]></title>
+      <identifier><![CDATA[contact_details]]></identifier>
+      <content><![CDATA[<div class="contact_details">
+    <p class="short-description">If you need any help, please contact us <br> or send us an email</p>
+	<div class="contact_info">
+		<div class="row no-margin">
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding">
+				<div class="info_main border_left">
+					<div class="ion-android-pin icons"><span class="hidden">hidden</span></div>
+					<div class="flex">
+						<p class="tit-name">Address</p>
+						<p class="tit-contain">5 South Main Street,<br>Englishtown, NJ 07726</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding">
+			    <div class="info_main border_right">
+					<div class="ion-android-call icons"><span class="hidden">hidden</span></div>
+					<div class="flex">
+						<p class="tit-name">Phone</p>
+						<p class="tit-contain">+1 (078) 575 91 81</p>
+						<p class="tit-contain">+1 (078) 575 81 91</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </block>
+</root>
